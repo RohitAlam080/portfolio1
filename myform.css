@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    /* background-color: rgb(6, 15, 95); */
+    color: #d8d5d5;
+  }
+  
+  .navbar {
+    font-weight: bold;
+    padding-left: 22px;
+  }
+  
+  .text1 {
+    text-align: center;
+    font-weight: 300;
+  }
+  
+  .newone {
+    text-align: justify;
+  }
+  
+  .nav-img {
+    width: 90px;
+  }
+  
+  .collapse {
+    padding-left: 226px;
+  }
+  
+  .text-center {
+    margin: -47px -1px -16px -2px;
+  }
+  
+  #hire {
+    font-weight: 500;
+    align-items: center;
+  }
+  
+  .carousel-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-nav {
+      text-align: center;
+    }
+  
+    .carousel-caption {
+      padding: 10px;
+    }
+  
+    .carousel-caption h1,
+    .carousel-caption h2,
+    .carousel-caption h3 {
+      font-size: 1.5rem;
+    }
+  
+    .carousel-caption p {
+      font-size: 1rem;
+    }
+  
+    .collapse {
+      padding-left: 0;
+    }
+  
+    .text-center {
+      margin: 0;
+    }
+  }
+  
+  .hire {
+    align-items: center;
+  }
+  
+  /* login form css */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-check {
+    margin-top: 10px;
+  }
+  
+  #forgotPassword {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .modal-footer button {
+    margin-right: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .modal-dialog {
+      margin: 20px auto;
+    }
+  
+    .modal-header, .modal-body, .modal-footer {
+      padding: 15px;
+    }
+  
+    .form-check {
+      margin-top: 15px;
+    }
+  
+    #forgotPassword {
+      margin-top: 15px;
+    }
+  }
+  
+  /* Social Media Icon Animation */
+.social-icons a {
+  display: inline-block;
+  font-size: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  transform: translateY(-5px);
+}
